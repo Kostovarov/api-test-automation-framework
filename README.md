@@ -1,4 +1,5 @@
 # API Test Automation Framework
+![API Tests](https://github.com/Kostovarov/api-test-automation-framework/actions/workflows/tests.yml/badge.svg)
 
 Учебный проект для автоматизированного тестирования REST API.
 
@@ -45,3 +46,7 @@ mvn clean test
 ```bash
 allure serve target/allure-results
 ```
+
+## CI
+
+Тесты автоматически запускаются в GitHub Actions при каждом push и pull request в `main`.
