@@ -19,11 +19,12 @@
     <testng.version>7.12.0</testng.version>
     <allure.version>2.35.2</allure.version>
 
-    <jackson.version>2.19.2</jackson.version>
+    <jackson.version>2.22.2</jackson.version>
     <lombok.version>1.18.38</lombok.version>
-    <assertj.version>3.27.3</assertj.version>
+    <assertj.version>3.27.7</assertj.version>
     <slf4j.version>2.0.17</slf4j.version>
-    <logback.version>1.5.18</logback.version>
+    <logback.version>1.5.38</logback.version>
+    <commons-codec.version>1.22.1</commons-codec.version>
 
     <aspectj.version>1.9.22.1</aspectj.version>
     <surefire.version>3.5.3</surefire.version>
@@ -107,7 +108,15 @@
       <version>${logback.version}</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>${commons-codec.version}</version>
+    </dependency>
   </dependencies>
+
+
 
   <build>
     <plugins>
